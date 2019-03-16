@@ -1,0 +1,8 @@
+trial:
+  path: /trial/{plaintiff}/{defendant}
+  controller: App\Infrastructure\Controller\TrialController::validate
+  methods: [GET]
+
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
